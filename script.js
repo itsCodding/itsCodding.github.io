@@ -37,10 +37,3 @@ function copyResult() {
      // Зняти виділення після копіювання
     window.getSelection().removeAllRanges();
 }
-  
-// ---------------------------
-function autoResizeTextArea() {
-    const textarea = document.getElementById("txt");
-    textarea.style.height = "auto"; // Спочатку встановлюємо автоматичну висоту
-    textarea.style.height = textarea.scrollHeight + "px"; // Змінюємо висоту на висоту контенту
-  }
